@@ -1,7 +1,5 @@
-# Leo InstaBot
-
 <p align="center">
-  <img src="https://github.com/LeonardRanaldi/Leo_InstaBot/blob/main/img/instabot.jpg" width="154">
+  <img src="https://github.com/LeonardRanaldi/Leo_InstaBot/blob/main/img/instabot.jpg" width="254">
   <h1 align="center">Leo Instabot</h1>
   <p align="center">Python bot to <b>automates</b> your social media interactions to like, comment and view stories on photos on Instagram, using webdrivers and scranping.<p>
    <p align="center">You can choose a list of users to like, comment or see stories.<p>
@@ -16,8 +14,3 @@
     </a>
   </p>
 </p>
-
-
-Python bot to like, comment and view stories on photos on Instagram, using webdrivers and scranping.
-You can choose a list of users to like, comment or see stories.
-Equipped with a control system for saving likes. 
