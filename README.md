@@ -19,24 +19,23 @@
 
 ### Requirements
 
+* [Firefox](https://www.mozilla.org/it/firefox/download/thanks/) - Browser Firefox
 * [Python 3+](https://www.python.org/download/releases/3.0/?) - Pyhton 3.8+ verion
 * [Selenium](https://github.com/SeleniumHQ/selenium) - Selenium for web automation
 * [geckodriver](https://github.com/mozilla/geckodriver/releases) - To scrape web page
 
 ### Installation
 
-Step 1: Install Selenium and requirements
+Step 1: Install Firefox, Selenium and other requirements
 ```sh
-$ pip3 install selenium
 $ pip3 install -r requirements.txt
 ```
 Step 2: Extract the downloaded driver onto a folder (Linux & Windows)
 
-Read readme file in [webdriver](https://github.com/LeonardRanaldi/Leo_InstaBot/tree/main/webdriver).
+Read instruction in readme.txt in [webdriver](https://github.com/LeonardRanaldi/Leo_InstaBot/tree/main/webdriver).
 ```sh
 $ unzip file.gz
 ```
-
 
 Mac Os 
 ```sh
