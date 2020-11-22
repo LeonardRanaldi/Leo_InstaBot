@@ -33,11 +33,14 @@ $ pip3 install -r requirements.txt
 Step 2: Extract the downloaded driver onto a folder (Linux & Windows)
 
 Read readme file in [webdriver](https://github.com/LeonardRanaldi/Leo_InstaBot/tree/main/webdriver).
+```sh
+$ unzip file.gz
+```
+
 
 Mac Os 
 ```sh
-$ brew 
-$ pip3 install -r requirements.txt
+$ brew install geckodriver
 ```
 
  
