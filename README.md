@@ -17,3 +17,27 @@
 
 <br />
 
+### Requirements
+
+* [Python 3+](https://www.python.org/download/releases/3.0/?) - Pyhton 3.8+ verion
+* [Selenium](https://github.com/SeleniumHQ/selenium) - Selenium for web automation
+* [geckodriver](https://github.com/mozilla/geckodriver/releases) - To scrape web page
+
+### Installation
+
+Step 1: Install Selenium and requirements
+```sh
+$ pip3 install selenium
+$ pip3 install -r requirements.txt
+```
+Step 2: Extract the downloaded driver onto a folder (Linux & Windows)
+
+Read readme file in [webdriver](https://github.com/LeonardRanaldi/Leo_InstaBot/tree/main/webdriver).
+
+Mac Os 
+```sh
+$ brew 
+$ pip3 install -r requirements.txt
+```
+
+ 
