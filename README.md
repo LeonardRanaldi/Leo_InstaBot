@@ -43,4 +43,7 @@ Mac Os
 $ brew install geckodriver
 ```
 
- 
+ Step 3: run main.py using Python3
+```sh
+$ python3 main.py
+```
