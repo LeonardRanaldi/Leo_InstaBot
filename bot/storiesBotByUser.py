@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 '''
 Created in 11/2020
 @Author: Leo
