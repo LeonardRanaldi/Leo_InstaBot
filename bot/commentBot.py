@@ -32,8 +32,8 @@ def functionComment(mySystem):
 
     elif mySystem == 'Darwin':
         mySystem = 'clear'
-        #way = Path('./geckodriver-v0.28.0-macos') # path to the file
-        geckoFile = '/usr/local/bin/geckodriver' # way to geckodriver
+        way = Path('/usr/local/bin/geckodriver') # path to the file
+        geckoFile = way
 
 
 
