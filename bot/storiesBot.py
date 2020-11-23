@@ -32,8 +32,8 @@ def functionStories(mySystem):
 
     elif mySystem == 'Darwin':
         mySystem = 'clear' #https://github.com/mozilla/geckodriver/releases/download/v0.28.0/geckodriver-v0.28.0-macos.tar.gz
-        #way = Path('./geckodriver-v0.28.0-macos') # path to the file
-        geckoFile = '/usr/local/bin/geckodriver' # way to geckodriver
+        way = Path('/usr/local/bin/geckodriver') # path to the file
+        geckoFile = way
 
 
 
