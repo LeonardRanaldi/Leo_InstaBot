@@ -32,8 +32,8 @@ def functionComment(mySystem):
 
     elif mySystem == 'Darwin':
         mySystem = 'clear'
-        way = Path('/usr/local/bin/geckodriver') # path to the file
-        geckoFile = way
+        #way = Path('./geckodriver-v0.28.0-macos') # path to the file
+        geckoFile = '/usr/local/bin/geckodriver' # way to geckodriver
 
 
 
@@ -131,10 +131,12 @@ def functionComment(mySystem):
 
 
     def likecomment(likes=1, comment=''): # function to like the photos
-        
+
         driver.find_element_by_xpath("//button[contains(text(),'Accetta')]").click()
 
         driver.find_element_by_class_name('v1Nh3').click() # click on photo to open and upload
+
+        likesAlready = readFile.readLikesFromFile()
 
         item = 1
         while item <= likes: # loop with how many photos to like
@@ -142,7 +144,13 @@ def functionComment(mySystem):
             try:
 
                 sleep(delay)
-                driver.find_element_by_class_name('fr66n').click() # click the like button
+
+                if driver.current_url not in likesAlready:
+
+                    driver.find_element_by_class_name('fr66n').click() # click the like button
+                    readFile.writeLikesFromFile(driver.current_url) #append new url to list of url liked
+
+
                 driver.find_element_by_class_name('Ypffh').click() # click the field to insert comment
                 field = driver.find_element_by_class_name('Ypffh')
                 field.clear()
