@@ -131,6 +131,8 @@ def functionComment(mySystem):
 
 
     def likecomment(likes=1, comment=''): # function to like the photos
+        
+        driver.find_element_by_xpath("//button[contains(text(),'Accetta')]").click()
 
         driver.find_element_by_class_name('v1Nh3').click() # click on photo to open and upload
 
