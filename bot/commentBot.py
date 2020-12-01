@@ -158,8 +158,8 @@ def functionComment(mySystem):
                 sleep(delay)
 
                 # the 'publish' button name changes according to your instagram language
-                driver.find_element_by_xpath('//button[contains(text(), "Publicar")]').click() # click the post 'comment' button element
-                sleep(random.randint(380, 420)) # break time between likes and comment due to instagram policy against bots
+                driver.find_element_by_xpath('//button[contains(text(), "Pubblica")]').click() # click the post 'comment' button element
+                sleep(random.randint(1,5)) # break time between likes and comment due to instagram policy against bots
                 driver.find_element_by_class_name('coreSpriteRightPaginationArrow').click() # click on next photo button
                 item = item + 1
 
