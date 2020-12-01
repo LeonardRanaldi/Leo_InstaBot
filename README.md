@@ -30,6 +30,12 @@ Step 1: Install Firefox, Selenium and other requirements
 ```sh
 $ pip3 install -r requirements.txt
 ```
+Mac Os 
+```sh
+$ brew install python@3.8
+```
+
+
 Step 2: Extract the downloaded driver onto a folder (Linux & Windows)
 
 Read instruction in readme.txt in [webdriver](https://github.com/LeonardRanaldi/Leo_InstaBot/tree/main/webdriver).
