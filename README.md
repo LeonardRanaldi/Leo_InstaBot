@@ -52,3 +52,10 @@ $ brew install geckodriver
 ```sh
 $ python3 main.py
 ```
+
+### Next Release
+
+-Automatic Reaction Stories
+-Find Multi-Hashtag
+
+
