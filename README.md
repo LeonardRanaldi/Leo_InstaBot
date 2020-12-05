@@ -56,6 +56,7 @@ $ python3 main.py
 ### Next Release
 
 * Automatic Reaction Stories
+* Un-/Follow Users
 * Find Multi-Hashtag
 
 
